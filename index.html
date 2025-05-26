@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirdropFinder - Never Miss a Crypto Airdrop Again</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            background-color: #181B20;
+            color: #ffffff;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #3B82F6, #60A5FA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .mac-window {
+            background: #2A2D35;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        .download-button {
+            background: linear-gradient(90deg, #3B82F6, #60A5FA);
+            transition: all 0.3s ease;
+        }
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Hero Section -->
+    <header class="container mx-auto px-4 py-16 md:py-24">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Never Miss a Crypto Airdrop Again
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12">
+                Track and claim all testnets and airdrops. 100% open-source. Your wallet, your keys, your Mac.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center mb-16">
+                <a href="/AirdropFinder-latest.dmg" class="download-button px-8 py-4 rounded-lg text-white font-semibold text-lg flex items-center gap-2">
+                    <i class="fab fa-apple"></i>
+                    Download for Mac
+                </a>
+                <a href="https://github.com/conerst0ne/drophunt" class="px-8 py-4 rounded-lg border border-gray-600 text-white font-semibold text-lg flex items-center gap-2 hover:bg-gray-800 transition-colors">
+                    <i class="fab fa-github"></i>
+                    View Source
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div class="p-6 rounded-lg bg-gray-800">
+                <i class="fas fa-bolt text-blue-500 text-2xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Instant Eligibility Check</h3>
+                <p class="text-gray-400">Check your eligibility for any airdrop in seconds</p>
+            </div>
+            <div class="p-6 rounded-lg bg-gray-800">
+                <i class="fas fa-bell text-blue-500 text-2xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Live Notifications</h3>
+                <p class="text-gray-400">Get instant alerts for new opportunities</p>
+            </div>
+            <div class="p-6 rounded-lg bg-gray-800">
+                <i class="fas fa-shield-alt text-blue-500 text-2xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Fully Local</h3>
+                <p class="text-gray-400">No data leaves your Mac, ever</p>
+            </div>
+            <div class="p-6 rounded-lg bg-gray-800">
+                <i class="fas fa-link text-blue-500 text-2xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">All Major Chains</h3>
+                <p class="text-gray-400">Support for Ethereum, Solana, and more</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Preview -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto">
+            <div class="mac-window p-4">
+                <div class="flex gap-2 mb-4">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                </div>
+                <div class="bg-gray-900 rounded-lg overflow-hidden">
+                    <img src="mockup.png" alt="AirdropFinder App Preview" class="w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">How to Install on Mac</h2>
+            <div class="bg-gray-800 rounded-lg p-6">
+                <ol class="space-y-4">
+                    <li class="flex items-start gap-4">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">1</span>
+                        <p>Download the .dmg file from the button above</p>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">2</span>
+                        <p>Right-click the downloaded file and select "Open"</p>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">3</span>
+                        <p>Click "Open" in the Gatekeeper security dialog</p>
+                    </li>
+                    <li class="flex items-start gap-4">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">4</span>
+                        <p>Drag AirdropFinder to your Applications folder</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <details class="bg-gray-800 rounded-lg p-6">
+                    <summary class="font-semibold cursor-pointer">Is it safe?</summary>
+                    <p class="mt-4 text-gray-400">Yes, AirdropFinder is 100% open-source and runs entirely on your Mac. We never access your private keys or wallet data.</p>
+                </details>
+                <details class="bg-gray-800 rounded-lg p-6">
+                    <summary class="font-semibold cursor-pointer">Is my data private?</summary>
+                    <p class="mt-4 text-gray-400">Absolutely. All data is stored locally on your Mac. No information is sent to any servers or cloud services.</p>
+                </details>
+                <details class="bg-gray-800 rounded-lg p-6">
+                    <summary class="font-semibold cursor-pointer">Which airdrops are tracked?</summary>
+                    <p class="mt-4 text-gray-400">We track airdrops and testnets across major blockchains including Ethereum, Solana, Polygon, and more. New opportunities are added daily.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-12 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">AirdropFinder</h3>
+                    <p class="text-gray-400">Your trusted companion for crypto airdrops</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex gap-4">
+                        <a href="https://github.com/conerst0ne/drophunt" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <a href="mailto:hello@airdropfinder.app" class="text-gray-400 hover:text-white">hello@airdropfinder.app</a>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 AirdropFinder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
